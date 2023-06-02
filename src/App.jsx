@@ -5,7 +5,7 @@ function App() {
   
   const [height, setHeight] = useState('');
   const [weight, setWeight] = useState('');
-  const [result, setResult] = useState(true);
+  const [result, setResult] = useState(false);
 
   const handleClick = () => {
     setResult(true);
